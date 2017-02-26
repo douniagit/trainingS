@@ -1,0 +1,45 @@
+.footer {
+	width: 1280px;
+  height: 163px;
+  background-color: #1b2f3f;
+  box-shadow: -1px 0px 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.info p{
+	width: 200px;
+  height: 10px;
+  font-family: SegoeUI;
+  font-size: 11px;
+  font-weight: 300;
+  margin-left:87px;
+  margin-top:0;
+  color: #fefefe;
+}
+
+.logo2{
+  margin-left:87px;
+  margin-top:56px;
+	width: 95px;
+  height: 27px;
+}
+.reseaux{
+  width:40%;
+}
+
+.reseaux ul{
+  display: flex;
+  flex-direction:row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding:0;
+}
+
+.ricon{
+  color:white;
+  font-size:13px;
+}
+.fa-facebook{
+  font-size:20px;
+}
+

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Raleway|Yesteryear');
+
+/*-----------------NavBar------------------*/
+.navbar {
+
+	position:absolute;
+	width: 1280px; /*100%*/
+	height: 60px;
+	opacity: 0.9;
+	background-color: #ffffff;
+	border-bottom: 1px solid #dadada;
+	margin:0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+}
+.wrapper{
+	width:23%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	margin-right:70px;
+}
+.logo{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	width:185px;
+	margin-left: 88px;
+}
+
+.logoT{
+	width: 80%;
+  	padding: 8px;
+  	
+}
+.logoS{
+	width: 60px;
+  	height: 27px;
+  	padding: 8px;
+}
+
+.menu{
+	width:50%;
+	/*padding-right:15px;*/
+	
+}
+.menu ul{
+	display: flex;
+	flex-direction:row;
+	list-style: none;
+	justify-content: space-around;
+	padding:0;
+}
+
+.concept{
+	width: 59px;
+	height: 15px;
+	font-family: SegoeUI;
+	font-size: 20px;
+	text-align: left;
+	color: #1b2f3f;
+	text-decoration:none;
+	border-right: 1px solid #dadada;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+.contact{
+	width: 55px;
+	height: 11px;
+	font-family: SegoeUI;
+	font-size: 20px;
+	text-align: left;
+	color: #1b2f3f;
+	text-decoration:none;
+}
+.reseaux{
+	width:40%;
+}
+.reseaux ul{
+	display: flex;
+	flex-direction:row;
+	list-style: none;
+	align-items: center;
+	justify-content: space-around;
+	padding:0;
+}
+
+.ricon{
+	color:black;
+	font-size:13px;
+}
+.fa-facebook{
+	font-size:20px;
+}
+/*--------------------background-------------*/
+.food{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	color:white;
+	background-image: url('http://www.leclub-fitness.com/images/stories/bodybuilding_muscles_training_sport_dumbell_0.jpg');
+	background-position:center;
+	background-size: 100%;
+	z-index: -100;
+	width: 1280px;
+	height: 535px;
+}
+.infoPratique{
+	line-height:10px;
+}
+
+.infoPratique p{
+	line-height:5px;
+}
+
+/*-----------------bande etape--------------*/
+
+.steps{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	background-color: #1b2f3f;
+	width: 1280px; /*100%*/
+	height: 60px;
+}
+.steps p{
+	width: 160px;
+	height: 30px;
+	
+	font-size: 14px;
+	
+	text-align: center;
+	color: #fefefe;
+}
+
+
+

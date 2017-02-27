@@ -15,23 +15,23 @@ class Header extends React.Component {
 			<div className="bande">
 				<div className="steps">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Notre mouvement</a></li>
-						<li><a href="#">Nos programmes sportifs
+						<li>Home</li>
+						<li>Notre mouvement</li>
+						<li>Nos programmes sportifs
 							<ul className="info">
-								<li><a href="#">Programme Fitness</a></li>
-								<li><a href="#">Programme Cardio</a></li>
-								<li><a href="#">Programme Musculation & Running</a></li>
-								<li><a href="#">Programme Remise en forme</a></li>
+								<li>Programme Fitness</li>
+								<li>Programme Cardio</li>
+								<li>Programme Musculation & Running</li>
+								<li>Programme Remise en forme</li>
 							</ul>
-						</a></li>
-						<li><a href="#">La diététique
+						</li>
+						<li>La diététique
 							<ul className="info">
-								<li><a href="#">Nos conseils personnalisés</a></li>
+								<li>Nos conseils personnalisés</li>
 							</ul>
-						</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Store</a></li>
+						</li>
+						<li>News</li>
+						<li><a href="http://store.lazarangelov.com/">Store</a></li>
 					</ul>
 				</div>
 			</div>

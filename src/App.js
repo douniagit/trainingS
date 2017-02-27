@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Navbar from "./navbar/Navbar.jsx";
 import Header from "./Header/Header.jsx";
 import Grid from "./Grid/Grid.jsx";
+import Card from "./Card/Card.jsx";
+
 import Footer from "./footer/Footer.jsx";
 
 class App extends Component {

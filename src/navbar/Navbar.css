@@ -78,25 +78,7 @@
 	color: #1b2f3f;
 	text-decoration:none;
 }
-.reseaux{
-	width:40%;
-}
-.reseaux ul{
-	display: flex;
-	flex-direction:row;
-	list-style: none;
-	align-items: center;
-	justify-content: space-around;
-	padding:0;
-}
 
-.ricon{
-	color:black;
-	font-size:13px;
-}
-.fa-facebook{
-	font-size:20px;
-}
 /*--------------------background-------------*/
 .food{
 	display:flex;
@@ -111,13 +93,6 @@
 	z-index: -100;
 	width: 1280px;
 	height: 535px;
-}
-.infoPratique{
-	line-height:10px;
-}
-
-.infoPratique p{
-	line-height:5px;
 }
 
 /*-----------------bande etape--------------*/
@@ -135,6 +110,7 @@
 	padding-top:22px;
 	margin:0;
 	width:100%;
+	color:white;
 	list-style:none;
 	display:flex;
 	flex-direction:row;
@@ -164,7 +140,7 @@
 .steps ul li:hover > ul{
 	display:block;
 }
-a{
+/*a{
 	text-decoration: none;
 	color:white;
-}
+}*/

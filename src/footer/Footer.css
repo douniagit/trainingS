@@ -22,24 +22,3 @@
 	width: 95px;
   height: 27px;
 }
-.reseaux{
-  width:40%;
-}
-
-.reseaux ul{
-  display: flex;
-  flex-direction:row;
-  list-style: none;
-  align-items: center;
-  justify-content: space-around;
-  padding:0;
-}
-
-.ricon{
-  color:white;
-  font-size:13px;
-}
-.fa-facebook{
-  font-size:20px;
-}
-

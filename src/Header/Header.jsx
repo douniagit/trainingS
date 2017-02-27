@@ -12,15 +12,29 @@ class Header extends React.Component {
 						
 					</div>
 				</div>
-
+			<div className="bande">
 				<div className="steps">
-					<p>Pré-commande<br/> de votre déjeuner</p>
-					<p>Cloture des pré-commandes <br/>à 8h30 le jour J</p>
-					<p>RelayTruck sur place <br/> de 12h à 14h</p>
-					<p>Plats frais et faits<br/> maison</p>
-					<p>Conservation à <br/>température idéale</p>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Notre mouvement</a></li>
+						<li><a href="#">Nos programmes sportifs
+							<ul className="info">
+								<li><a href="#">Programme Fitness</a></li>
+								<li><a href="#">Programme Cardio</a></li>
+								<li><a href="#">Programme Musculation & Running</a></li>
+								<li><a href="#">Programme Remise en forme</a></li>
+							</ul>
+						</a></li>
+						<li><a href="#">La diététique
+							<ul className="info">
+								<li><a href="#">Nos conseils personnalisés</a></li>
+							</ul>
+						</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Store</a></li>
+					</ul>
 				</div>
-
+			</div>
 		</div>
 	    )
 

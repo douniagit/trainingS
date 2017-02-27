@@ -19,7 +19,20 @@ class Footer extends React.Component {
 								<li><a href="#" className="ricon"><i className="fa fa-instagram fa-2x"></i></a></li>
 							</ul>
 						</div>
-				<div className="contact"></div>
+				<div className="contact">
+					<ul>
+						<li>FAQ</li>
+						<li>MENTIONS LÉGALES</li>
+						<li>CONDITIONS GÉNÉRALES DE VENTE</li>
+					</ul>
+				</div>
+					<div className="newsl">
+						<h3>REJOINS NOTRE CREW</h3>
+							<p>Sois le premier à recevoir des nouvelles sur nos nouveaux programmes</p>
+							<input type="text" placeholder="Ton adresse mail" />
+							<button>Envoyer</button>
+					</div>
+				
 			</div>
 
 	    )

@@ -1,0 +1,10 @@
+.grid{
+	margin-top:100px;
+}
+.wraping{
+	width:100%;
+	height:110vh;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}

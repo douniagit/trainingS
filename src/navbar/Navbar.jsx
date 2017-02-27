@@ -14,7 +14,7 @@ class Navbar extends React.Component {
 				    <div className="wrapper">
 						<div className="menu">
 							<ul>
-								<li><a href="#" className="concept">Inscirption</a></li>
+								<li><a href="#" className="concept">Inscription</a></li>
 								<li><a href="#"className="contact">Connexion</a></li>
 							</ul>
 						</div>

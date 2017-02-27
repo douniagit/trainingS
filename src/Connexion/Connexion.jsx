@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../navbar/Navbar.jsx";
 import Footer from "../footer/Footer.jsx";
-import "../Inscription/Inscription.jsx";
+import "../Inscription/inscription.css";
 
 export default class Connexion extends React.Component {
 

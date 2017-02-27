@@ -1,5 +1,6 @@
 import React from 'react';
 import '../navbar/Navbar.css';
+import { Router, Route, Link } from 'react-router';
 
 
 class Header extends React.Component {
@@ -19,15 +20,15 @@ class Header extends React.Component {
 						<li>Notre mouvement</li>
 						<li>Nos programmes sportifs
 							<ul className="info">
-								<li>Programme Fitness</li>
-								<li>Programme Cardio</li>
-								<li>Programme Musculation & Running</li>
-								<li>Programme Remise en forme</li>
+								<li><Link to="/programme">Programme Fitness</Link></li>
+								<li><Link to="/programme">Programme Cardio</Link></li>
+								<li><Link to="/programme">Programme Musculation & Running</Link></li>
+								<li><Link to="/programme">Programme Remise en forme</Link></li>
 							</ul>
 						</li>
 						<li>La diététique
 							<ul className="info">
-								<li>Nos conseils personnalisés</li>
+								<li><Link to="/diet">Nos conseils personnalisés</Link></li>
 							</ul>
 						</li>
 						<li>News</li>

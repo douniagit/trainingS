@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Allura|Raleway|Yesteryear');
 
 /*-----------------NavBar------------------*/
 .navbar {
 	position:absolute;
-	width: 1280px; /*100%*/
+	width: 100%;
 	height: 60px;
 	opacity: 0.9;
 	background-color: #ffffff;
@@ -37,17 +36,12 @@
   	padding: 8px;
   	
 }
-.logoS{
-	width: 60px;
-  	height: 27px;
-  	padding: 8px;
-}
 
 .menu{
 	width:50%;
 	/*padding-right:15px;*/
-	
 }
+
 .menu ul{
 	display: flex;
 	flex-direction:row;
@@ -56,10 +50,10 @@
 	padding:0;
 }
 
-.concept{
+.inscription{
 	width: 59px;
 	height: 15px;
-	font-family: SegoeUI;
+	font-family:'Roboto', sans-serif;
 	font-size: 20px;
 	text-align: left;
 	color: #1b2f3f;
@@ -69,10 +63,10 @@
 	margin-right: 20px;
 }
 
-.contact{
+.connexion{
 	width: 55px;
 	height: 11px;
-	font-family: SegoeUI;
+	font-family:'Roboto', sans-serif;
 	font-size: 20px;
 	text-align: left;
 	color: #1b2f3f;
@@ -87,8 +81,12 @@
 	font-size:20px;
 }
 
+.fa-shopping-cart:hover{
+	color:orange;
+	transition:0.15s;
+}
 /*--------------------background-------------*/
-.food{
+.back{
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
@@ -97,16 +95,16 @@
 	color:white;
 	background-image: url('http://www.leclub-fitness.com/images/stories/bodybuilding_muscles_training_sport_dumbell_0.jpg');
 	background-position:center;
-	background-size: 100%;
+	background-size: cover;
 	z-index: -100;
-	width: 1280px;
+	width: 100%;
 	height: 535px;
 }
 
 /*-----------------bande etape--------------*/
 .bande{
 	background-color: #1b2f3f;
-	width:1280px;
+	width:100%;
 	height:60px;
 }
 .steps{
@@ -119,6 +117,7 @@
 	margin:0;
 	width:100%;
 	color:white;
+	font-family:'Roboto', sans-serif;
 	list-style:none;
 	display:flex;
 	flex-direction:row;
@@ -148,7 +147,12 @@
 .steps ul li:hover > ul{
 	display:block;
 }
-/*a{
+
+a{
+	transition:0.15s;
 	text-decoration: none;
 	color:white;
-}*/
+}
+a:hover{
+	color:orange;
+}

@@ -8,9 +8,9 @@ class Header extends React.Component {
 	render(){
 		return(
 			<div className="header">
-				<div className="food">
+				<div className="back">
 					<div className="infoPratique">
-						
+						<h1> SOIT UNE MEUILLEURE VERSION DE TOI-MEME</h1>
 					</div>
 				</div>
 			<div className="bande">

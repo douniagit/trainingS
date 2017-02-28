@@ -14,15 +14,14 @@ class Navbar extends React.Component {
 				    <div className="wrapper">
 						<div className="menu">
 							<ul>
-								<li><Link to="/inscription" className="concept">Inscription</Link></li>
-								<li><Link to="/connexion" className="contact">Connexion</Link></li>
-								<li><Link to="/inscription" className="panier"><i className="fa fa-shopping-cart" aria-hidden="true"></i>
-</Link></li>
+								<li><Link to="/inscription" className="inscription">Inscription</Link></li>
+								<li><Link to="/connexion" className="connexion">Connexion</Link></li>
+								<li><Link to="/inscription" className="panier"><i className="fa fa-shopping-cart" aria-hidden="true"></i></Link></li>
 							</ul>
 						</div>
 						
 					</div>
-			</div>
+				</div>
 		</div>
 	    )
 

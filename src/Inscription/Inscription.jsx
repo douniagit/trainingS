@@ -2,13 +2,15 @@ import React from 'react';
 import Navbar from "../navbar/Navbar.jsx";
 import Footer from "../footer/Footer.jsx";
 import "./inscription.css";
+import {Link } from 'react-router';
 
 export default class Inscription extends React.Component {
 
     render(){
         return(
-        <div className="inscription">
+        <div>
             <Navbar />
+            <div className="inscrp">
             <div className="suscrib">
                 <form action="/action_page.php">
                     <label for="fname">Prémon</label>
@@ -29,11 +31,11 @@ export default class Inscription extends React.Component {
                     <label for="lname">Confirme mot de passe</label>
                     <input type="text" id="lname" name="check" placeholder="confirme ton mot de passe..."/>
                     <input type="submit" value="S'inscrire"/>
-                    <p> deja inscrit? <a href="#">Connectes-toi!</a></p>
+                    <p> deja inscrit? <Link to="/connexion">Connectes-toi!</Link></p>
                   </form>
                </div>
-                <Footer />
-            
+            </div>
+             <Footer />
         </div>
 
         )

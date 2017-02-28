@@ -7,8 +7,9 @@ export default class Connexion extends React.Component {
 
     render(){
         return(
-        <div className="Connexion">
+        <div className="containC">
             <Navbar />
+            <div className="inscrp">
             <div className="connect">
                 <form action="/action_page.php">
                     <label for="fname">Prémon</label>
@@ -18,6 +19,7 @@ export default class Connexion extends React.Component {
                     <input type="submit" value="Se connecter"/>
                   </form>
                </div>
+            </div>
             <Footer />
         </div>
 

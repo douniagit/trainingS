@@ -45,15 +45,30 @@ const contenu = {
               "name": "PROGRAMME SUPER SECHE",
               "image":"http://www.musculaction.com/images/intro-releves-bassin.jpg",
               "description": "Le programme SUPER SECHE est un régime repose sur le principe suivant : avoir un apport en calories plus faible que notre corps en réclame (régime hypocalorique). C’est de cette seule et unique façon qu’au fil des semaines, votre corps puisera dans ses réserves de graisses, et vous permettra de perdre du poids et donc du gras.<br/> Réussir un régime se résume à 50% d’efforts en nutrition, 25% en entraînement (et 25% en récupération). Nous allons vous énumérer quelques conseils pour avoir un programme de seche afin d’être bien sec et découpé. Nous vous recommandons donc de le coupler avec notre PROGRAMME CARDIO",
+              "price": "120.00€/mois ebook et suivis du poids en ligne"
+            },
+            {
+              "id": 1,
+              "name": "PROGRAMME BIEN ETRE",
+              "image": "http://www.healthyfoodguide.com.au/sites/default/files/styles/recipe_320x295/public/12232.jpg?itok=PegJyfM8",
+              "description": "Clé de la forme, de la minceur et de la santé, l'équilibre alimentaire est parfois difficile à trouver. Pourtant, au fond, c'est très simple: il suffit de manger un peu de tout ! Explications et détails, pour celles qui souhaitent manger sain et équilibré. en complément avec le PROGRAMME REMISE EN FORME, accélerera vos resultats",
+              "price": "45.00€/mois ebook et suivis du poids en ligne"
+            },
+            {
+              "id": 2,
+              "name": "PROGRAMME 365 JOURS",
+              "image":"http://www.healthyfood.co.uk/wp-content/uploads/2015/06/healthy-diabetes-diet.jpg",
+              "description": "Le programme SUPER SECHE est un régime repose sur le principe suivant : avoir un apport en calories plus faible que notre corps en réclame (régime hypocalorique). C’est de cette seule et unique façon qu’au fil des semaines, votre corps puisera dans ses réserves de graisses, et vous permettra de perdre du poids et donc du gras.<br/> Réussir un régime se résume à 50% d’efforts en nutrition, 25% en entraînement (et 25% en récupération). Nous allons vous énumérer quelques conseils pour avoir un programme de seche afin d’être bien sec et découpé. Nous vous recommandons donc de le coupler avec notre PROGRAMME CARDIO",
               "price": "155.00€/mois ebook et suivis du poids en ligne"
             },
+
 
           ],
 
   "articles": [
             {
               "id": 1,
-              "name": "LAZAR ANGELOV INTERVIEW EN EXCLUS",
+              "name": "LAZAR ANGELOV INTERVIEW EXCLUS",
               "image": "https://pbs.twimg.com/profile_images/3041169727/97e48bd2ef943330164d5cf91416e444_400x400.jpeg",
               "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.",
             },
@@ -62,6 +77,27 @@ const contenu = {
               "name": "WHEN JODIE STARTED SPORT",
               "image":"http://ww1.prweb.com/prfiles/2011/02/21/8153390/JNLBocaCM1-074WebSmallLogo1.jpg",
               "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.",
+            },
+
+          ],
+"activites": [
+            {
+              "image1": "https://pbs.twimg.com/profile_images/3041169727/97e48bd2ef943330164d5cf91416e444_400x400.jpeg",
+            },
+            {
+              "image2":"http://ww1.prweb.com/prfiles/2011/02/21/8153390/JNLBocaCM1-074WebSmallLogo1.jpg",
+            },
+            {
+              "image3":"http://ww1.prweb.com/prfiles/2011/02/21/8153390/JNLBocaCM1-074WebSmallLogo1.jpg",
+            },
+            {
+              "image4":"http://ww1.prweb.com/prfiles/2011/02/21/8153390/JNLBocaCM1-074WebSmallLogo1.jpg",
+            },
+            {
+              "image5":"http://ww1.prweb.com/prfiles/2011/02/21/8153390/JNLBocaCM1-074WebSmallLogo1.jpg",
+            },
+            {
+              "image6":"http://ww1.prweb.com/prfiles/2011/02/21/8153390/JNLBocaCM1-074WebSmallLogo1.jpg",
             },
 
           ]

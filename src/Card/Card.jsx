@@ -10,7 +10,7 @@ class Card extends React.Component {
       <div className="container">
 
           <div className="content">
-            <div className="intro"><h1> NOS PROPOSITIONS </h1>
+            <div className="intro"><h1>Nos différents modules en fonction de votre besoin</h1>
             </div>
               { contenu.prog.map(menu =>
                 <div className="Card">

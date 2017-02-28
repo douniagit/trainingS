@@ -10,7 +10,7 @@ class CardDiet extends React.Component {
       <div className="container">
 
           <div className="content">
-            <div className="intro"><h1> NOS PROPOSITIONS </h1>
+            <div className="intro"><h1>Nos différentes formules dietetiques</h1>
             </div>
               { contenu.diet.map(menu =>
                 <div className="Card">

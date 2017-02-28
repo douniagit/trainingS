@@ -10,7 +10,6 @@ export default class Diet extends React.Component {
 		<div className="Diet">
 			<Navbar />
 			<div className="wraping">
-				<h1>Nos différentes formules dietetiques</h1>
 				<CardDiet />
 				<Footer />
 			</div>

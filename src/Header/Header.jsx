@@ -1,6 +1,6 @@
 import React from 'react';
 import '../navbar/Navbar.css';
-import { Router, Route, Link } from 'react-router';
+import { Link } from 'react-router';
 
 
 class Header extends React.Component {
@@ -10,7 +10,7 @@ class Header extends React.Component {
 			<div className="header">
 				<div className="back">
 					<div className="infoPratique">
-						<h1> SOIT UNE MEUILLEURE VERSION DE TOI-MEME</h1>
+						<h1> SOIS LA MEUILLEURE VERSION DE TOI-MEME</h1>
 					</div>
 				</div>
 			<div className="bande">
@@ -18,6 +18,16 @@ class Header extends React.Component {
 					<ul>
 						<li>Home</li>
 						<li>Notre mouvement</li>
+						<li>Nos Activités
+							<ul className="info">
+								<li><Link to="/activites">Fitness</Link></li>
+								<li><Link to="/activites">Musculation</Link></li>
+								<li><Link to="/activites">Jujitsu Brésilien</Link></li>
+								<li><Link to="/activites">Karaté</Link></li>
+								<li><Link to="/activites">Judo</Link></li>
+								<li><Link to="/activites">Boxe</Link></li>
+							</ul>
+						</li>
 						<li>Nos programmes sportifs
 							<ul className="info">
 								<li><Link to="/programme">Programme Fitness</Link></li>

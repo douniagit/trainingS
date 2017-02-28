@@ -8,13 +8,12 @@ class Programme extends React.Component {
 
 	render(){
 		return(
-		<div className="Programme">
+		<div className="programme">
 			<Navbar />
 			<div className="wraping">
-				<h1>Nos différents modules en fonction de votre besoin</h1>
 				<Card />
-				<Footer />
 			</div>
+			<Footer />
 		</div>
 
 	    )

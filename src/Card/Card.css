@@ -4,8 +4,9 @@
   flex-direction: row;
   font-family:'Roboto', sans-serif;
   width: 100%;
-  height: 1121px;
+  background-color: black;
 }
+
 h1{
   font-family:'Roboto', sans-serif;
 }
@@ -14,27 +15,29 @@ h1{
   height:15vh;
 }
 .intro h1{
-  margin-left: 40px;
-  margin-top:60px;
-  
+  margin-top:100px;
+  margin-left: 40px;  
 }
 .content{
-  border:2px solid orange;
   display:flex;
   flex-flow: row wrap;
   justify-content: space-around;
   width: 100%;
-  background-color: #ffffff;
+  height: auto;
+  background-repeat: no-repeat;
+  background-image:url("https://s-media-cache-ak0.pinimg.com/originals/e1/11/5a/e1115afea56dcaf0c273a4f3d9fc7f3a.jpg");
 }
 .Card {
   width: 374px;
   height: 439px;
+  margin-top:100px;
+  margin-bottom:50px;
   background-color: #fbfbfb;
-  box-shadow: -1px 0px 3px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: -1px 0px 3px 0 rgba(255,165, 0, 0.35);
   transition:box-shadow 0.1s ease-in-out;
 }
 .Card:hover{
-  box-shadow: 10px 10px 15px 0px #cfcfcf;
+  box-shadow: 10px 10px 15px 0px rgba(255,165, 0, 0.35);
 }
 
 .img {
@@ -44,7 +47,7 @@ h1{
 
 .text {
   margin-left: 20px;
-  height: 148px;
+  height: 128px;
   width: 325px;
 }
 .title {
@@ -59,14 +62,14 @@ h1{
   color: #1b2f3f;
 }
 .price {
-  margin-left:18px;
-  width: 49px;
-  height: 11px;
+  margin-top:16px;
+  width: 300px;
+  height: 20px;
   font-family:'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
-  text-align: left;
-  color: #1b2f3f;
+  text-align: center;
+  color: orange;
 }
 .desc {
   width: 325px;
@@ -78,9 +81,10 @@ h1{
   text-align: left;
   color: #1b2f3f;
   overflow: scroll;
+  border-bottom:2px solid #dadada;
 }
 .add {
-  margin-left:-65px;
+  margin-left:-125px;
   text-align:center;
   font-family:'Roboto', sans-serif;
   padding:10px;
@@ -91,14 +95,18 @@ h1{
   box-shadow: -1px 0px 3px 0 rgba(0, 0, 0, 0.35);
 }
 .add:hover{
-  background-color:#536a84 ;
+  background-color:orange ;
 }
+
 .Card a{
   margin-left:235px;
   display:inline-block;
   width:35%;
   text-decoration: none;
 }
+
 .wrapp{
   display:flex;
+  flex-direction:column;
+  align-items:center;
 }

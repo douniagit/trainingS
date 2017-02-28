@@ -10,14 +10,14 @@ class CardArticles extends React.Component {
       <div className="container">
 
           <div className="content">
-            <div className="intro"><h1>NewsLetters </h1>
+            <div className="intro"><h1 style={{color:"white",backgroundColor:"orange",width:"100%",height:"60px", marginTop:"0",marginLeft:"0", paddingTop:"20px",paddingLeft:"20px"}}>EN ACTU CHEZ NOUS:</h1>
             </div>
               { contenu.articles.map(menu =>
-                <div className="Card">
+                <div style={{marginTop:"0", height:"600px"}} className="Card">
                   <img src={menu.image} alt="" className="img"/>
                   <div className="text">
                     <div className="title">{menu.name}</div>
-                    <div className="desc">{menu.description}</div>
+                    <div style={{height:"500px", borderBottom:"none"}} className="desc">{menu.description}</div>
                   </div>
                   </div>
                 )}

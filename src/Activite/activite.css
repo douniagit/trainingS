@@ -1,0 +1,36 @@
+.activite{
+	display:flex;
+	flex-direction: column;
+	background-color:black;
+	background-image:url("https://s-media-cache-ak0.pinimg.com/originals/e1/11/5a/e1115afea56dcaf0c273a4f3d9fc7f3a.jpg");
+	background-repeat: no-repeat;
+
+}
+h2{
+	color:orange;
+	text-align: center;
+	padding-bottom:40px;
+}
+.presentation{
+	margin:auto;
+	margin-top: 100px;
+	width:100%;
+	color:white;
+}
+.prezactiv{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	margin-bottom:30px;
+}
+.prez{
+	width:500px;
+}
+.titreactiv{
+	width:200px;
+	color:orange;
+}
+.img3{
+	width:300px;
+}
